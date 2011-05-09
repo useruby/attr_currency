@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Alexey Artamonov}]
   s.date = %q{2011-05-09}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Helper for ActiveRecord. It is help for storing currency column in cent.}
   s.email = %q{i@useruby.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -20,17 +20,22 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "spec/spec_helper.rb"
+    "attr_currency.gemspec",
+    "lib/attr_currency.rb",
+    "spec/attr_currency_spec.rb",
+    "spec/spec_helper.rb",
+    "spec/support/models/tabless.rb"
   ]
   s.homepage = %q{http://github.com/useruby/attr_currency}
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.1}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Helper for ActiveRecord. It is help for storing currency column in cent.}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

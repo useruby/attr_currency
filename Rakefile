@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "attr_currency"
   gem.homepage = "http://github.com/useruby/attr_currency"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Helper for ActiveRecord. It is help for storing currency column in cent.}
+  gem.description = %Q{Helper for ActiveRecord. It is help for storing currency column in cent.}
   gem.email = "i@useruby.com"
   gem.authors = ["Alexey Artamonov"]
   # dependencies defined in Gemfile
